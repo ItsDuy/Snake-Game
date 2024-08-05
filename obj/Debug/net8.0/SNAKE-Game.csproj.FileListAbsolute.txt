@@ -1,0 +1,14 @@
+C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\bin\Debug\net8.0\SNAKE-Game.exe
+C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\bin\Debug\net8.0\SNAKE-Game.deps.json
+C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\bin\Debug\net8.0\SNAKE-Game.runtimeconfig.json
+C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\bin\Debug\net8.0\SNAKE-Game.dll
+C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\bin\Debug\net8.0\SNAKE-Game.pdb
+C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\obj\Debug\net8.0\SNAKE-Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\obj\Debug\net8.0\SNAKE-Game.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\obj\Debug\net8.0\SNAKE-Game.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\obj\Debug\net8.0\SNAKE-Game.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\obj\Debug\net8.0\SNAKE-Game.dll
+C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\obj\Debug\net8.0\refint\SNAKE-Game.dll
+C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\obj\Debug\net8.0\SNAKE-Game.pdb
+C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\obj\Debug\net8.0\SNAKE-Game.genruntimeconfig.cache
+C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\obj\Debug\net8.0\ref\SNAKE-Game.dll
