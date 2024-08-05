@@ -12,3 +12,4 @@ C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\obj\Debug\net8.0
 C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\obj\Debug\net8.0\SNAKE-Game.pdb
 C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\obj\Debug\net8.0\SNAKE-Game.genruntimeconfig.cache
 C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\obj\Debug\net8.0\ref\SNAKE-Game.dll
+C:\Users\Admin\OneDrive\Máy tính\CODING\2024-Y1\C#\SNAKE-Game\obj\Debug\net8.0\SNAKE-Game.sourcelink.json

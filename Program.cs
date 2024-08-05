@@ -40,6 +40,7 @@ class Program
     // static int[]_head=new int[2]{4,5};
     static Point _head = new Point(4, 5);
     static string[,] board = new string[row, col];
+    static TimerTracker timerTrack=new TimerTracker();
     static void Main(string[] args)
     {
         Thread _game = new Thread(ListenKey);
@@ -51,6 +52,7 @@ class Program
             SpawnBody();
             Drawboard();
             setUpBoard();
+            timerTrack.StartWatch();
             EatFood();
             PopUpfood();
             ShowPoint();
@@ -60,6 +62,7 @@ class Program
                 timesPlayed++;
                 Array.Resize(ref recordScore, timesPlayed);
                 recordScore[timesPlayed - 1] = score;
+                timerTrack.StopWatch();
                 RecordofScore();
                 break;
             }
@@ -68,9 +71,10 @@ class Program
         }
         while (!Lose);
         Console.Clear();
-        Console.ForegroundColor = ConsoleColor.Red;
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine("Game Over!");
         Console.WriteLine($"Final Score: {score}");
+        Console.WriteLine($"Time played: {timerTrack.Timer()}");
         Console.WriteLine($"Highest score:{MaxScore(recordScore)}");
         Console.ResetColor();
         Console.WriteLine("Press any key to restart...");
@@ -246,6 +250,7 @@ class Program
     static void ShowPoint()
     {
         Console.WriteLine($"Scorce: {score}");
+        
     }
 
     static void CheckLose()
@@ -270,6 +275,7 @@ class Program
         body = new Point[1] { new Point(4, 4) };
         food = new Point(-1, -1);
         foodExist = false;
+        timerTrack.ResetWatch();
     }
     static int MaxScore(int []array)
     {
@@ -294,6 +300,23 @@ class Program
             for(int i=0;i<recordScore.Length;i++)
             {
             streamWriter.Write(recordScore[i] );
+            }
+        }
+    }
+    
+    static void ReadRecord()
+    {
+        FileStream fs=new FileStream(url,FileMode.Open);
+        using(StreamReader streamReader = new StreamReader(fs))
+        {
+            string? data=streamReader.ReadLine();
+            string[] elements=data !=null ? data.Trim().Split(" ") : new string[0];
+            int[] scores=new int [elements.Length];
+            
+            for(int i=0;i<elements.Length;i++)
+            {
+                scores[i]=Convert.ToInt32(elements[i]);
+                
             }
         }
     }

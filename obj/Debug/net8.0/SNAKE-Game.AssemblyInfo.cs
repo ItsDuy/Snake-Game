@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SNAKE-Game")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a87a42de685902f8b1375910d5430c9e072b667")]
 [assembly: System.Reflection.AssemblyProductAttribute("SNAKE-Game")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SNAKE-Game")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
